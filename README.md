@@ -1,7 +1,7 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
   <br/>
-  <a href="https://arshadahmed.vercel.app/" target="_main">Arshad Ahmed</a>
+<a href="https://arshadahmed.vercel.app/" target="_blank">Arshad Ahmed</a>
 </h2>
 <div align="center">
 </div>
