@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-// import editor from "../../Assets/Projects/codeEditor.png";
-// // import EMS from "../../Assets/Projects/chatify.png";
-// import suicide from "../../Assets/Projects/suicide.png";
-// import bitsOfCode from "../../Assets/Projects/blog.png";
+import meal from "../../Assets/Projects/meal.png";
+import furniture from "../../Assets/Projects/furniture.png";
+import weather from "../../Assets/Projects/weather.png";
+import education from "../../Assets/Projects/education.png";
+import RR from "../../Assets/Projects/reservation.png";
+import grain from "../../Assets/Projects/grain.png";
 
 function Projects() {
   return (
@@ -21,73 +21,73 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <h1>Will be added Soon!!!</h1>
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-            //   imgPath={EMS}
+              imgPath={RR}
               isBlog={false}
-              title="Employee Management System"
-              description="Developed a robust Leave Management System with ReactJS and Redux, functionalities Achieved a notable 30% boost in application performance for enhanced user responsiveness."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Rapid Reservation"
+              description="Rapid Hotel Reservation System: Developed a comprehensive React-based application that allows users to book hotel reservations by selecting dates and the number of guests. Utilized a date range library for intuitive date selection and implemented seamless navigation to a results page displaying available hotels with their images. Employed React hooks for state management ."
+              ghLink="https://github.com/arshad10x/RapidReservations"
+              demoLink="https://github.com/arshad10x/RapidReservations"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={grain}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Golden Grain"
+              description="HTML to React.js Client Site: Recreated a client site from scratch, transitioning from HTML and jQuery to React.js. Integrated dynamic data from JSON, utilizing the map function to render components efficiently. Employed React hooks for state management and side effects, and used React Router for seamless navigation. Enhanced the user experience with a responsive design and optimized performance."
+              ghLink="https://golden-grain.vercel.app/"
+              demoLink="https://golden-grain.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={meal}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Meal Finder"
+              description="Meal Finder App: Developed a responsive Meal Finder app using React. This application allows users to search for meals and filter results accordingly. Integrated with a meal API to fetch dynamic data, displaying meal options based on user input. Leveraged React hooks for state management and asynchronous data fetching. Ensured a user-friendly experience with a responsive design."
+              ghLink="https://github.com/arshad10x/MealFinder"
+              demoLink="https://meal-finder-xi-five.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={furniture}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Modern Furniture"
+              description="I designed and developed a sleek and modern furniture website using HTML and CSS. The website features a multipage layout, offering a seamless browsing experience for users. To enhance the site's visual appeal and engagement, I incorporated CSS animations, creating a dynamic and interactive interface."
+              ghLink="https://github.com/arshad10x/furniture-store"
+              demoLink="https://the-modern-furniture.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={weather}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Weather App"
+              description="I developed a weather application using React.js, leveraging the Weather API to fetch real-time weather data. The app provides users with up-to-date weather information, including temperature, humidity, and wind speed, for their location or any specified location."
+              ghLink="https://github.com/arshad10x/weather-app"
+              demoLink="https://weather-app-arshad10x.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={education}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Edusity"
+              description="I designed and developed a stunning website using React.js. The site features captivating animations that enhance the user experience and make the interface more engaging. To manage the form submissions, I implemented a web3form, leveraging React hooks to handle the form state efficiently."
+              ghLink="https://github.com/arsh10x/Edusity"
+              demoLink="https://techies-world.vercel.app/"
+           
             />
-          </Col> */}
+          </Col>
+
         </Row>
       </Container>
     </Container>

@@ -2,13 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
-function Home2() {
+function Home() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -18,38 +15,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              Hi, I'm Arshad Ahmed, a passionate <b className="purple">Frontend Developer</b> with a love for building innovative web solutions. I have a strong foundation in JavaScript and React, and I'm always eager to learn and apply new technologies to my projects.
               <br />
               <br />
-              In addition to Javascript,
-              <i>
-                <b className="purple"> I have experience with React. </b>
-              </i>
-              <br />
-              <br />I am interested in building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b>
-                {/* and
-                also in areas related to{" "} 
-                 <b className="purple">
-                  Blockchain.
-                </b> */}
-              </i>
+              With 2 years of experience in <b className="purple">React development</b>, I have worked on various projects, enhancing their performance and user experience. I am particularly interested in creating products that not only meet but exceed user expectations.
               <br />
               <br />
-              Whenever possible, I apply my passion for developing products
-              using <br />
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
-              </i>
+              Apart from coding, I enjoy exploring <b className="purple">new technologies and finding creative solutions to complex problems.</b> When I'm not coding, you can find me reading about the latest trends in web development or working on personal projects.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -102,4 +74,5 @@ function Home2() {
     </Container>
   );
 }
-export default Home2;
+
+export default Home;

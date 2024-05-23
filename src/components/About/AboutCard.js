@@ -16,9 +16,9 @@ function AboutCard() {
             I have graduated with a Bachelor of Engineering (BE) in Computer Science from Amravati University.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            {/* Apart from coding, some other activities that I love to do! */}
           </p>
-          <ul>
+          {/* <ul>
             <li className="about-activity">
               <ImPointRight /> Playing Games
             </li>
@@ -28,7 +28,7 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
-          </ul>
+          </ul> */}
 
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
