@@ -8,7 +8,7 @@ import weather from "../../Assets/Projects/weather.png";
 import education from "../../Assets/Projects/education.png";
 import RR from "../../Assets/Projects/reservation.png";
 import grain from "../../Assets/Projects/grain.png";
-
+import cryptoDashbaord from "../../Assets/Projects/cryptoDashboard.png"
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -21,6 +21,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cryptoDashbaord}
+              isBlog={false}
+              title="Crypto Dashboard"
+              description="I developed the Crypto Dashboard as a sleek and modern web application using React.js. The dashboard currently features a user-friendly UI with placeholder data, showcasing my expertise in frontend development. I utilized Chakra UI for a polished design and React Router DOM for seamless navigation, setting the groundwork for future integration with real-time cryptocurrency market data. This project demonstrates my skills in creating intuitive and visually appealing applications."
+              ghLink="https://github.com/arsh10x/crypto_dashboard"
+              demoLink="https://crypto-dashboard-purple.vercel.app/"
+           
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={RR}
